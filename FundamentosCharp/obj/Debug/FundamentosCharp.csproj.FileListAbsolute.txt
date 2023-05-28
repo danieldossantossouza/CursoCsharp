@@ -1,0 +1,8 @@
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.csproj.AssemblyReference.cache
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.csproj.CoreCompileInputs.cache
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\FundamentosCharp.exe.config
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\FundamentosCharp.exe
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\FundamentosCharp.pdb
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.exe
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.pdb
