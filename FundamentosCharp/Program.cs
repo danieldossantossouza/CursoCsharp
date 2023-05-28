@@ -325,10 +325,13 @@ namespace FundamentosCharp
             //--------------------------------------- Classe Abstrata  -----------------------------------//
             // Vc Não consegue criar uma estacia atraves de uma classe Abstrata (NEW) papel principal
             // é servir como uma super classe para subClasses 
-           //
-           //AulaClasseAbstrata();
+            //
+            //AulaClasseAbstrata();
 
-
+            //-------------------------------------- Interface -----------------------------------------//
+            // Interface é um contrato que quando uma classe herda a mesma ela obriga a implementação dos atributos e métodos da Interface.
+            AulaInterface();
+            Console.ReadLine();
 
 
         }
@@ -373,6 +376,25 @@ namespace FundamentosCharp
             cachorro.Nome = "Kiara";
             cachorro.ImprimirDados();
             Console.ReadLine();
+        }
+
+        private static void AulaInterface()
+        {
+            var notificacaoCliente = new FundamentosCharp.NotificacaoCliente();
+            notificacaoCliente.Descricao = "Esse é ´Cliente!";
+            notificacaoCliente.Notificar();
+            notificacaoCliente.NotificarOutros();
+
+
+            //---------------
+
+            FundamentosCharp.INotificacao notificacao = new FundamentosCharp.NotificarFuncionarios();
+            notificacao.Descricao = "Esse é o Funcionario!";
+            notificacao.Notificar();
+
+            // Dessa maneira não aceita pois ela vai exigir somente o que esta no contrato que esta na classe INotificacao
+            //notificacao.NotificarOutros();
+
         }
     }
 }

@@ -46,6 +46,9 @@
     <Compile Include="Cachorro.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Configuracao.cs" />
+    <Compile Include="INotificacao.cs" />
+    <Compile Include="NotificacaoCliente.cs" />
+    <Compile Include="NotificarFuncionarios.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="PessoaFisica.cs" />
     <Compile Include="Program.cs" />
