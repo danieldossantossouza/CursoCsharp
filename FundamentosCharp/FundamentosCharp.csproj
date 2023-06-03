@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AulaTrayParse.cs" />
     <Compile Include="Cachorro.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Configuracao.cs" />

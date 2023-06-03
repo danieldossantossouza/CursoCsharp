@@ -330,9 +330,11 @@ namespace FundamentosCharp
 
             //-------------------------------------- Interface -----------------------------------------//
             // Interface é um contrato que quando uma classe herda a mesma ela obriga a implementação dos atributos e métodos da Interface.
-            AulaInterface();
-            Console.ReadLine();
+            //AulaInterface();
+            //Console.ReadLine();
 
+            //------------------------------------- TrayParse  ----------------------------------------//
+            Conversor();
 
         }
         private static void AulaHeraca()
@@ -395,6 +397,14 @@ namespace FundamentosCharp
             // Dessa maneira não aceita pois ela vai exigir somente o que esta no contrato que esta na classe INotificacao
             //notificacao.NotificarOutros();
 
+        }
+
+        private static void Conversor()
+        {
+            var conversor = new FundamentosCharp.AulaTrayParse();
+            conversor.aulatrayParse();
+            Console.ReadLine();
+        
         }
     }
 }
