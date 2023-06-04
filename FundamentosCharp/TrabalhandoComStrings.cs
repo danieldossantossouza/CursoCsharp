@@ -23,5 +23,13 @@ namespace FundamentosCharp
             var nome = Console.ReadLine();
             Console.WriteLine(nome.ToUpper());
         }
+
+        public void AulaSbtring()
+        {
+            Console.Write("Digite seu nome completo:");
+            var nome = Console.ReadLine();
+            Console.WriteLine(nome.Substring(6));  // O primeiro campo é de onde vai começar a contagem o segundo é onde vai para.
+                                                     // Se colocar somente um numero será exibido tudo apartir daquela posição
+        }
     }
 }

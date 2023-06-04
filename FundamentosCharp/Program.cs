@@ -343,6 +343,11 @@ namespace FundamentosCharp
 
             //------------------------------------- ToUpper  -----------------------------------------//
             //Como converter uma cadeia de caracéres em letras maiuscula.
+            //TrabalhaStrigs();
+            //Console.ReadLine();
+
+            //-------------------------------------  SubString ---------------------------------------//
+
             TrabalhaStrigs();
             Console.ReadLine();
 
@@ -423,9 +428,11 @@ namespace FundamentosCharp
             //var trabalhandoCmStrings = new FundamentosCharp.TrabalhandoComStrings();
             //trabalhandoCmStrings.ConverterParaLetraMinuscula();
 
-            var letrasMaiuscula = new FundamentosCharp.TrabalhandoComStrings();
-            letrasMaiuscula.ConvertendoParaLetrasMaiusculas();
+            //var letrasMaiuscula = new FundamentosCharp.TrabalhandoComStrings();
+            //letrasMaiuscula.ConvertendoParaLetrasMaiusculas();
 
+            var subString = new FundamentosCharp.TrabalhandoComStrings();
+            subString.AulaSbtring();
        
         }
     }
