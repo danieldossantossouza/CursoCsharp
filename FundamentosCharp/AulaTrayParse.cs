@@ -11,6 +11,8 @@ namespace FundamentosCharp
 
         public void aulatrayParse()
         {
+            //OBS: existe varios tipos de TrayParse ex: (long.TryParse/ decimal.TryParse/char.TryParse/bool.TryParse)
+ 
            
            // var numero = "abc";     // Não será convertido e retornara um zero
             var numero = "12456789";  //var numero = "123456";  // sera convertido 
@@ -19,6 +21,7 @@ namespace FundamentosCharp
             // 2- (out) é o valor valor
             // 3- a outra condição é para o tipo que vc quer no nosso caso será o int
             // OBS: Esse método devolce um valor Buleano se ele não conseguir converter ele devolve false no nosso caso será o zero.
+
 
             int numeroConvertido;
             if (int.TryParse(numero, out numeroConvertido))
