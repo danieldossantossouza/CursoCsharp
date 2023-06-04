@@ -15,5 +15,13 @@ namespace FundamentosCharp
             var nome = Console.ReadLine();
             Console.WriteLine(nome.ToLower());
         }
+
+
+        public void ConvertendoParaLetrasMaiusculas()
+        {
+            Console.Write("Digite seu nome:");
+            var nome = Console.ReadLine();
+            Console.WriteLine(nome.ToUpper());
+        }
     }
 }

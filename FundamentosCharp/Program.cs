@@ -337,9 +337,16 @@ namespace FundamentosCharp
             // Conversor();
 
             //------------------------------------- ToLower  ------------------------------------------//
-            //Como converter uma cadeia de caracéres em letras minusculas.
+            //Como converter uma cadeia de caracéres em letras minuscula.
+            //TrabalhaStrigs();
+            //Console.ReadLine();
+
+            //------------------------------------- ToUpper  -----------------------------------------//
+            //Como converter uma cadeia de caracéres em letras maiuscula.
             TrabalhaStrigs();
             Console.ReadLine();
+
+
         }
         private static void AulaHeraca()
         {
@@ -413,8 +420,11 @@ namespace FundamentosCharp
 
         private static void TrabalhaStrigs()
         {
-            var trabalhandoCmStrings = new FundamentosCharp.TrabalhandoComStrings();
-            trabalhandoCmStrings.ConverterParaLetraMinuscula();
+            //var trabalhandoCmStrings = new FundamentosCharp.TrabalhandoComStrings();
+            //trabalhandoCmStrings.ConverterParaLetraMinuscula();
+
+            var letrasMaiuscula = new FundamentosCharp.TrabalhandoComStrings();
+            letrasMaiuscula.ConvertendoParaLetrasMaiusculas();
 
        
         }
