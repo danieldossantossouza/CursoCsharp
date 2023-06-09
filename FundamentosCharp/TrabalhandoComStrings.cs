@@ -60,5 +60,13 @@ namespace FundamentosCharp
             Console.WriteLine("fINAL: " + nomeArquivo.TrimEnd('*'));
         }
 
+        public void AulaStartWithEndWith()
+        {
+            // Retira os caracteres que vc deseja (Trim)
+            string nomeArquivo = "Daniel Souza**";
+            Console.WriteLine("INICIO: " + nomeArquivo.StartsWith("Daniel"));
+            Console.WriteLine("fINAL: " + nomeArquivo.EndsWith("Xpto"));
+        }
+
     }
 }
