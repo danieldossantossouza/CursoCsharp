@@ -431,8 +431,11 @@ namespace FundamentosCharp
             //var letrasMaiuscula = new FundamentosCharp.TrabalhandoComStrings();
             //letrasMaiuscula.ConvertendoParaLetrasMaiusculas();
 
-            var subString = new FundamentosCharp.TrabalhandoComStrings();
-            subString.AulaSbtring();
+            //var subString = new FundamentosCharp.TrabalhandoComStrings();
+            //subString.AulaSbtring();
+
+            var contains = new FundamentosCharp.TrabalhandoComStrings();
+            contains.AulaContains();
        
         }
     }

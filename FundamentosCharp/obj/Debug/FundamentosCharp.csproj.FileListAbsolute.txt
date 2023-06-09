@@ -4,5 +4,9 @@ C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug
 C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\FundamentosCharp.exe.config
 C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\FundamentosCharp.exe
 C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\FundamentosCharp.pdb
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\IntervalTree.dll
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\Savage.Range.dll
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\bin\Debug\IntervalTree.xml
+C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.csproj.CopyComplete
 C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.exe
 C:\Users\daniel.souza\Desktop\Estudo\FundamentosCharp\FundamentosCharp\obj\Debug\FundamentosCharp.pdb
