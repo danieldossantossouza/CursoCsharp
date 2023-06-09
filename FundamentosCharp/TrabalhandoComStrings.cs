@@ -68,5 +68,12 @@ namespace FundamentosCharp
             Console.WriteLine("fINAL: " + nomeArquivo.EndsWith("Xpto"));
         }
 
+        public void AulaReplace()
+        {
+            string teste = "Curso Csharp";
+            Console.WriteLine(teste);
+            Console.WriteLine(teste.Replace("Csharp", "c#"));
+        }
+
     }
 }

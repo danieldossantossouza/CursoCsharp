@@ -441,8 +441,11 @@ namespace FundamentosCharp
             //trim.AulaTrim();
 
 
-            var startWithEndWith = new FundamentosCharp.TrabalhandoComStrings();
-                startWithEndWith.AulaStartWithEndWith();
+            //var startWithEndWith = new FundamentosCharp.TrabalhandoComStrings();
+            //    startWithEndWith.AulaStartWithEndWith();
+
+            var aulaReplace = new FundamentosCharp.TrabalhandoComStrings();
+            aulaReplace.AulaReplace();
 
         }
     }
