@@ -346,11 +346,14 @@ namespace FundamentosCharp
             //TrabalhaStrigs();
             //Console.ReadLine();
 
-            //-------------------------------------  SubString ---------------------------------------//
+            //-------------------------------------  Trabalhando com String ---------------------------------------//
 
-            TrabalhaStrigs();
+            //TrabalhaStrigs();
+            //Console.ReadLine();
+
+            //------------------------------------- Trabalhando Com Datas ------------------------//
+            TrabalhandoComData();
             Console.ReadLine();
-
 
         }
         private static void AulaHeraca()
@@ -447,6 +450,12 @@ namespace FundamentosCharp
             var aulaReplace = new FundamentosCharp.TrabalhandoComStrings();
             aulaReplace.AulaReplace();
 
+        }
+
+        private static void TrabalhandoComData()
+        {
+            var trabalhaComData = new FundamentosCharp.TrabalnhandoComDatas();
+            trabalhaComData.AulaDateTime();
         }
     }
 }
