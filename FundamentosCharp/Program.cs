@@ -434,9 +434,13 @@ namespace FundamentosCharp
             //var subString = new FundamentosCharp.TrabalhandoComStrings();
             //subString.AulaSbtring();
 
-            var contains = new FundamentosCharp.TrabalhandoComStrings();
-            contains.AulaContains();
-       
+            //var contains = new FundamentosCharp.TrabalhandoComStrings();
+            //contains.AulaContains();
+
+            var trim = new FundamentosCharp.TrabalhandoComStrings();
+            trim.AulaTrim();
+
+
         }
     }
 }

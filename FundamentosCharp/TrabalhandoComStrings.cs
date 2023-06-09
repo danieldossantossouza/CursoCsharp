@@ -50,5 +50,15 @@ namespace FundamentosCharp
             }
             else Console.WriteLine("Palavra Não encontrada!!!");
         }
+
+        public void AulaTrim()
+        {
+            // Retira os caracteres que vc deseja (Trim)
+            string nomeArquivo = "**Daniel Souza**";
+            Console.WriteLine("TOTAL: " + nomeArquivo.Trim());
+            Console.WriteLine("INICIO: " + nomeArquivo.TrimStart('*'));
+            Console.WriteLine("fINAL: " + nomeArquivo.TrimEnd('*'));
+        }
+
     }
 }
