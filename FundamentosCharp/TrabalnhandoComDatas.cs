@@ -75,7 +75,7 @@ namespace FundamentosCharp
         public void AulaDateOnly()
         {
             //Pode ser feito dessas duas maneiras porem não
-            //vai rodar pois estou com uma versão mais antiga
+            //vai rodar neste projeto pois estou com uma versão mais antiga
 
             //var data = new DateOnly(2023, 06, 10);
             //var date = DateOnly.Parse("2023-06-10");
@@ -85,7 +85,7 @@ namespace FundamentosCharp
         public void AulaTimeOnly()
         {
             //Pode ser feito dessas duas maneiras porem não
-            //vai rodar pois estou com uma versão mais antiga
+            //vai rodar neste projeto pois estou com uma versão mais antiga
 
             //var time = new TimeOnly(15, 48,10);
             //var time = TimeOnly.Parse("HH:mm:ss");

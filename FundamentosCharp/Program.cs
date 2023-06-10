@@ -352,7 +352,11 @@ namespace FundamentosCharp
             //Console.ReadLine();
 
             //------------------------------------- Trabalhando Com Datas ------------------------//
-            TrabalhandoComData();
+            //TrabalhandoComData();
+            //Console.ReadLine();
+
+            //------------------------------------- Exception  ------------------------------------//
+            TrabalhaException();
             Console.ReadLine();
 
         }
@@ -384,7 +388,7 @@ namespace FundamentosCharp
 
             var configuracao = new FundamentosCharp.Configuracao()
             {
-                Host= "Classe selada"
+                Host = "Classe selada"
             };
 
             Console.WriteLine(configuracao.Host);
@@ -423,7 +427,7 @@ namespace FundamentosCharp
             var conversor = new FundamentosCharp.AulaTrayParse();
             conversor.aulatrayParse();
             Console.ReadLine();
-        
+
         }
 
         private static void TrabalhaStrigs()
@@ -461,6 +465,12 @@ namespace FundamentosCharp
             //trabalhaComData.AulaAdicionandoHoraMinutosSegundos();
             trabalhaComData.AulaDiaDaSemana();
         }
-               
+
+
+        private static void TrabalhaException()
+        {
+            var exception = new FundamentosCharp.TrabalhandoComException();
+            exception.AuladeException();
+        }
     }
 }
