@@ -360,9 +360,12 @@ namespace FundamentosCharp
             //Console.ReadLine();
 
             //-------------------------------------- Trabalhando com Arquivos ---------------------//
-            TrabalhaArquivos();
-            Console.ReadLine();
+            //TrabalhaArquivos();
+            //Console.ReadLine();
 
+            //-------------------------------------- Trabalhando com Linq -------------------------//
+            TrabalhandoLinq();
+            Console.ReadLine();
 
 
         }
@@ -485,6 +488,12 @@ namespace FundamentosCharp
             //arquivos.AulaCriandoArquivo();
             //arquivos.AulaLeituraDeArquivo();
             arquivos.AulaExcluirArquivos();
+        }
+
+        private static void TrabalhandoLinq()
+        {
+            var linq = new FundamentosCharp.TrabalhandoComLinq();
+            linq.AulaLinq();
         }
     }
 }
