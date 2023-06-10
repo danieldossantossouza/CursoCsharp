@@ -455,7 +455,12 @@ namespace FundamentosCharp
         private static void TrabalhandoComData()
         {
             var trabalhaComData = new FundamentosCharp.TrabalnhandoComDatas();
-            trabalhaComData.AulaDateTime();
+            // trabalhaComData.AulaDateTime();
+            //trabalhaComData.AulaSubtraindoData();
+            //trabalhaComData.AulaAdicionandoDiasMesAno();
+            //trabalhaComData.AulaAdicionandoHoraMinutosSegundos();
+            trabalhaComData.AulaDiaDaSemana();
         }
+               
     }
 }
