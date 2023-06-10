@@ -356,8 +356,14 @@ namespace FundamentosCharp
             //Console.ReadLine();
 
             //------------------------------------- Exception  ------------------------------------//
-            TrabalhaException();
+            //TrabalhaException();
+            //Console.ReadLine();
+
+            //-------------------------------------- Trabalhando com Arquivos ---------------------//
+            TrabalhaArquivos();
             Console.ReadLine();
+
+
 
         }
         private static void AulaHeraca()
@@ -471,6 +477,14 @@ namespace FundamentosCharp
         {
             var exception = new FundamentosCharp.TrabalhandoComException();
             exception.AuladeException();
+        }
+
+        private static void TrabalhaArquivos()
+        {
+            var arquivos = new FundamentosCharp.TrabalhandoComArquivos();
+            //arquivos.AulaCriandoArquivo();
+            //arquivos.AulaLeituraDeArquivo();
+            arquivos.AulaExcluirArquivos();
         }
     }
 }

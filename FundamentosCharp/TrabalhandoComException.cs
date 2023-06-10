@@ -14,7 +14,7 @@ namespace FundamentosCharp
 			// O Try evita que o sistema seja encerrado apos um erro 
 			try
 			{
-				Console.WriteLine("Informe um momento: ");
+				Console.Write("Informe um momento: ");
 				var numero = Console.ReadLine();
 				var resultado = 500 / int.Parse(numero);
 				Console.WriteLine("Resultado: " + resultado);
