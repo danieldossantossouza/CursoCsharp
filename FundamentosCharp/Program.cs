@@ -493,7 +493,8 @@ namespace FundamentosCharp
         private static void TrabalhandoLinq()
         {
             var linq = new FundamentosCharp.TrabalhandoComLinq();
-            linq.AulaLinq();
+            //linq.AulaLinq();
+            linq.AulaOrdenacao();
         }
     }
 }
