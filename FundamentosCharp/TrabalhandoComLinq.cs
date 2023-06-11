@@ -65,5 +65,16 @@ namespace FundamentosCharp
                 Console.WriteLine(num);
             }
         }
+
+        public void AulaCount()
+        {
+            var numeros = new int[] { 10, 2, 5, 33, 66, 44, 6, 7, 88 };
+
+            //var cont = numeros.Count();// Conta a quantidade que tem dentro da lista 
+
+            var cont = numeros.Count(n=> n > 10); // Conta a quantidade que tem dentro da lista maior que 10
+            Console.WriteLine(cont);  
+         
+        }
     }
 }
