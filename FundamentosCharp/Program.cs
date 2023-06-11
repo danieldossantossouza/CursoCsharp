@@ -494,7 +494,8 @@ namespace FundamentosCharp
         {
             var linq = new FundamentosCharp.TrabalhandoComLinq();
             //linq.AulaLinq();
-            linq.AulaOrdenacao();
+            //linq.AulaOrdenacao();
+            linq.AulaTake();
         }
     }
 }

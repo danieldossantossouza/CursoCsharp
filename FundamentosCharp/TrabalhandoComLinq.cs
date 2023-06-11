@@ -52,5 +52,18 @@ namespace FundamentosCharp
             }
            
         }
+
+        public void AulaTake()
+        {
+            var numeros = new int[] { 10, 2, 4, 22, 50, 66, 3 ,88};
+            //var take = numeros.Take(3); // Busca os 3 primeiros numeros
+            //var take = numeros.Take(3).OrderBy(n => n); // Busca os 3 primeiros numeros ordenando-os
+            var take = numeros.Where(n => n > 10).Take(2); //Busca os 2 primeiros numeros maiores que 10
+
+            foreach (var num in take) 
+            {
+                Console.WriteLine(num);
+            }
+        }
     }
 }
