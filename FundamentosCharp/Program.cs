@@ -496,7 +496,8 @@ namespace FundamentosCharp
             //linq.AulaLinq();
             //linq.AulaOrdenacao();
             //linq.AulaTake();
-            linq.AulaCount();
+            //linq.AulaCount();
+            linq.AulaFirstFirstOrDefault();
         }
     }
 }

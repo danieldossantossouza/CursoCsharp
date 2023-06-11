@@ -76,5 +76,17 @@ namespace FundamentosCharp
             Console.WriteLine(cont);  
          
         }
+
+        public void AulaFirstFirstOrDefault()
+        {
+            //var numero = new int[] { 10, 30, 4, 2, 66, 77, 88, 4, 8 };
+            //var resultado = numero.First(); // Busca o primeiro da lista esse tipo da erro se a lista estiver vazia
+
+            var numero = new int[] { 10, 30, 4, 2, 66, 77, 88, 4, 8 };
+            var resultado = numero.FirstOrDefault(n => n >10); // Busca o primeiro da lista e não da erro na aplicação se vier vazia a lista
+           
+
+            Console.WriteLine(resultado);
+        }
     }
 }
